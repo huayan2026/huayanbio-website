@@ -101,7 +101,7 @@ img{max-width:100%;display:block}
 .product-card .prod-specs{display:flex;gap:8px;flex-wrap:wrap}
 .product-card .prod-specs span{background:var(--gray-100);padding:3px 8px;border-radius:5px;font-size:.75rem;color:var(--gray-800)}
 .coming-soon{opacity:.6;pointer-events:none}
-.coming-soon::after{content:'即将上线';position:absolute;top:12px;right:12px;background:var(--gray-600);color:#fff;font-size:.7rem;padding:4px 10px;border-radius:12px}
+.coming-soon::after{content:'鍗冲皢涓婄嚎';position:absolute;top:12px;right:12px;background:var(--gray-600);color:#fff;font-size:.7rem;padding:4px 10px;border-radius:12px}
 #features{background:#fff}
 .feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px}
 .feature-item{text-align:center;padding:28px 20px}
@@ -115,7 +115,7 @@ img{max-width:100%;display:block}
 .stat-card{background:#fff;padding:20px;border-radius:var(--radius-sm);text-align:center;box-shadow:var(--shadow-sm)}
 .stat-card .num{font-size:1.8rem;font-weight:800;color:var(--teal)}
 .stat-card .label{font-size:.8rem;color:var(--gray-600);margin-top:4px}
-.about-image{background:linear-gradient(135deg,var(--teal-light),var(--blue-light));border-radius:var(--radius);padding:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:340px}
+.about-image{background:#fff;border-radius:var(--radius);padding:40px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:340px;box-shadow:var(--shadow-sm)}
 .about-image .company-name{font-size:1.5rem;font-weight:800;color:var(--blue-dark)}
 @media(max-width:768px){.about-grid{grid-template-columns:1fr;text-align:center}.about-stats{justify-content:center}}
 #contact{background:#fff}
