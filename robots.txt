@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://huayan2026.github.io/huayanbio-website/sitemap.xml
+Sitemap: https://www.huayanbios.com/sitemap.xml
