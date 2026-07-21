@@ -82,7 +82,7 @@ img{max-width:100%;display:block}
 .species-tab.active .badge{background:var(--teal-light);color:var(--teal)}
 .tab-content{display:none}
 .tab-content.active{display:block}
-.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;grid-auto-rows:1fr}
 .product-card{background:#fff;border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm);border:1px solid var(--gray-200);transition:all .3s;position:relative;overflow:hidden;min-height:380px;display:flex;flex-direction:column}
 .product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);border-color:var(--teal)}
 .product-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
