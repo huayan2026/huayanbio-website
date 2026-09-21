@@ -95,6 +95,8 @@ img{max-width:100%;display:block}
 .product-card:nth-child(6)::before{background:var(--blue-mid)}
 .product-card:nth-child(7)::before{background:var(--gold)}
 .product-card:nth-child(8)::before{background:var(--teal)}
+.product-card:nth-child(9)::before{background:var(--blue-mid)}
+.product-card:nth-child(10)::before{background:var(--gold)}
 
 .product-card .prod-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:.72rem;font-weight:600;margin-bottom:12px}
 .product-card .prod-badge.ivm{background:var(--teal-light);color:var(--teal)}
